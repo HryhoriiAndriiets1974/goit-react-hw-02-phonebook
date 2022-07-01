@@ -1,28 +1,27 @@
-**Read in other languages: [Русский](README.md), [Polska](README.pl.md).**
+**Read in other languages: [Українська](README.md), [Polska](README.pl.md).**
 
 # React homework template
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Цей проект було створено за допомогою
+[Create React App](https://github.com/facebook/create-react-app). Для ознайомлення
+та налаштування додаткових можливостей
+[використай документацію](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Подготовка нового проекта
+## Підготовка нового проекту
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Склонируй этот репозиторий.
-3. Измени имя папки с `react-homework-template` на имя своего проекта.
-4. Создай новый пустой репозиторий на GitHub.
-5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
-   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Установи базовые зависимости проекта командой `npm install`.
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+1. Переконайтесь що на комп’ютері встановлена LTS-версія Node.js.
+   [Завантаж та встанови](https://nodejs.org/en/) якщо це необхідно.
+2. Склонуй цей репозиторій.
+3. Зміни ім’я папки з `react-homework-template` на ім’я свого проекту.
+4. Створи новий порожній репозиторій на GitHub.
+5. Відкрий проект в VSCode, запусти термінал та св’яжи проект з GitHub-репозиторієм
+   [згідно інструкції](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+6. Встанови базові залежності проекту командою `npm install`.
+7. Запусти режим розробки, виконавши команду `npm start`.
+8. Перейдіть в браузері за адресою [http://localhost:3000](http://localhost:3000).
+   Ця сторінка буде автоматично перезавантажуватися після збереження змін в файлах проекту.
 
-## Деплой
+## Деплой ------------- переклад в процесі
 
 Для настройки деплоя проекта необходимо выполнить несколько дополнительных шагов
 по настройке твоего репозитория. Зайди во вкладку `Settings` и в подсекции
