@@ -51,7 +51,7 @@ class App extends Component {
   };
 
   render () {
-    const {filter} = this.state;
+    const { contacts, filter} = this.state;
     const visibleContacts = this.newContacts();
     return (
       <div>
@@ -64,10 +64,13 @@ class App extends Component {
           value={filter}
           onChange={this.changeFilter}
         />
-        <ContactList
-          contacts={visibleContacts}
-          onDeleteContact={this.delContact}
-        />
+       {  contacts.length
+            ? <ContactList
+                contacts={visibleContacts}
+                onDeleteContact={this.delContact}
+              />
+            : <p>Your phonebook is empty !!!</p>
+        }
       </div>
     )
   }
