@@ -10,7 +10,6 @@ class Form extends Component {
   handleChange = e => {
     const {name, value} = e.currentTarget;
     this.setState({
-      contacts: [this.state.name, this.state.number],
       [name]: value,
     })
   };
