@@ -3,6 +3,7 @@ import {nanoid} from 'nanoid';
 import Form from "./Form";
 import ContactList from "./ContactList";
 import Filter from "./Filter";
+import css from './App.module.css';
 
 class App extends Component {
   state = {
@@ -54,12 +55,12 @@ class App extends Component {
     const { contacts, filter} = this.state;
     const visibleContacts = this.newContacts();
     return (
-      <div>
-        <h1>Phonebook</h1>
+      <div className={css.wrapper}>
+        <h1 className={css.wrapper__title}>Phonebook</h1>
         <Form
           onSubmit={this.addContact}
         />
-        <h1>Contacts :</h1>
+        <h1 className={css.wrapper__title}>Contacts :</h1>
         <Filter
           value={filter}
           onChange={this.changeFilter}
@@ -69,7 +70,7 @@ class App extends Component {
                 contacts={visibleContacts}
                 onDeleteContact={this.delContact}
               />
-            : <p>Your phonebook is empty !!!</p>
+            : <p className={css.wrapper__message}>Your phonebook is empty !!!</p>
         }
       </div>
     )

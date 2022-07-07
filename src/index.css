@@ -1,4 +1,19 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+
+:root {
+  /* колір вторинного тексту red */
+  --primary-text-color: red;
+  /* колір основного тексту blue */
+  --title-text-color: blue;
+  /* колір для темного фону */
+  --for-black-color: greenyellow;
+  --primary-bg-color: lightblue;
+  /* акцент  */
+  --accent-color: greenyellow;
+  /* колір темного фону */
+  --bg-color: goldenrod;
+  --bg-team: rgb(85, 66, 20);
+}
 
 body {
   margin: 0;
@@ -7,6 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--accent-color);
 }
 
 code {
